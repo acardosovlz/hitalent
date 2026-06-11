@@ -200,32 +200,31 @@
 
     <form id="formRequisicion">
         
-        <!-- SECCIÓN 1: GENERALES -->
         <div class="section-title">1. Generales</div>
         <div class="grid-2">
             <div class="form-group">
                 <label for="nombreSolicitante">Nombre del Solicitante *</label>
-                <input type="text" id="nombreSolicitante" required placeholder="Ej: J. Emmanuel Cantú Cabello">
+                <input type="text" id="nombreSolicitante" required placeholder="Ej: Nombre Apellido">
             </div>
             <div class="form-group">
                 <label for="empresaCliente">Empresa *</label>
-                <input type="text" id="empresaCliente" required placeholder="Ej: ICQ Contadores">
+                <input type="text" id="empresaCliente" required placeholder="Ej: Empresa S.A. de C.V.">
             </div>
             <div class="form-group">
                 <label for="telefonoContacto">Teléfono Fijo</label>
-                <input type="text" id="telefonoContacto" placeholder="Ej: 8119119306">
+                <input type="text" id="telefonoContacto" placeholder="Ej: 0000000000">
             </div>
             <div class="form-group">
                 <label for="celularContacto">Celular</label>
-                <input type="text" id="celularContacto" placeholder="Ej: 8119119306">
+                <input type="text" id="celularContacto" placeholder="Ej: 0000000000">
             </div>
             <div class="form-group">
                 <label for="emailContacto">E-mail / Contacto</label>
-                <input type="text" id="emailContacto" placeholder="Ej: Vía whatsapp u oficina">
+                <input type="text" id="emailContacto" placeholder="Ej: correo@empresa.com">
             </div>
             <div class="form-group">
                 <label for="nombrePosicion">Nombre de la Posición *</label>
-                <input type="text" id="nombrePosicion" required placeholder="Ej: Contador">
+                <input type="text" id="nombrePosicion" required placeholder="Ej: Puesto Solicitado">
             </div>
             <div class="form-group">
                 <label for="numeroVacantes">No. de Vacantes</label>
@@ -241,24 +240,23 @@
             </div>
             <div class="form-group">
                 <label for="ubicacion">Ubicación</label>
-                <input type="text" id="ubicacion" placeholder="Ej: Monterrey, N.L.">
+                <input type="text" id="ubicacion" placeholder="Ej: Ciudad, Estado">
             </div>
             <div class="form-group">
                 <label for="horarioLaboral">Horario</label>
-                <input type="text" id="horarioLaboral" placeholder="Ej: L-V 9:00 A 18:00 HRS, S 9:00-13:00HRS">
+                <input type="text" id="horarioLaboral" placeholder="Ej: L-V 9:00 A 18:00 HRS">
             </div>
             <div class="form-group full-width">
                 <label for="reportaA">Reporta a</label>
-                <input type="text" id="reportaA" placeholder="Ej: Gerente del Despacho Contable">
+                <input type="text" id="reportaA" placeholder="Ej: Título del Jefe Directo">
             </div>
         </div>
 
-        <!-- SECCIÓN 2: INFORMACIÓN DEL PERFIL -->
         <div class="section-title">2. Información del Perfil</div>
         <div class="grid-3">
             <div class="form-group">
                 <label for="edadMinMax">Edad Sugerida</label>
-                <input type="text" id="edadMinMax" placeholder="Ej: 22-30">
+                <input type="text" id="edadMinMax" placeholder="Ej: Rango de edad">
             </div>
             <div class="form-group">
                 <label for="estadoCivil">Estado Civil</label>
@@ -296,30 +294,29 @@
         </div>
         <div class="form-group">
             <label for="experienciaRequerida">Experiencia Requerida</label>
-            <input type="text" id="experienciaRequerida" placeholder="Ej: Ideal 2 años en despachos">
+            <input type="text" id="experienciaRequerida" placeholder="Ej: Tiempo y áreas de experiencia">
         </div>
         <div class="form-group">
             <label for="requisitosIndispensables">Requisitos Indispensables</label>
-            <textarea id="requisitosIndispensables" placeholder="Manejo de Contpaqi, SUA, Nóminas, etc..."></textarea>
+            <textarea id="requisitosIndispensables" placeholder="Manejo de sistemas, certificaciones, etc..."></textarea>
         </div>
         <div class="form-group">
             <label for="requisitosDeseables">Requisitos Deseables</label>
-            <textarea id="requisitosDeseables" placeholder="Experiencia en devoluciones de IVA, etc..."></textarea>
+            <textarea id="requisitosDeseables" placeholder="Conocimientos adicionales..."></textarea>
         </div>
         <div class="form-group">
             <label for="conocimientosCualidades">Conocimientos y Cualidades Blandas</label>
-            <textarea id="conocimientosCualidades" placeholder="Proactivo, trabajo bajo presión, amabilidad, etc..."></textarea>
+            <textarea id="conocimientosCualidades" placeholder="Habilidades blandas, aptitudes, etc..."></textarea>
         </div>
         <div class="form-group">
             <label for="habilidadesTecnologicas">Habilidades Tecnológicas</label>
-            <input type="text" id="habilitiesTecnologicas" placeholder="Ej: Office, Gmail, Internet, WhatsApp">
+            <input type="text" id="habilitiesTecnologicas" placeholder="Ej: Paquetería Office, Software específico">
         </div>
         <div class="form-group">
             <label for="idiomas">Idiomas</label>
-            <input type="text" id="idiomas" placeholder="Ej: Inglés (Preferente) o N/A">
+            <input type="text" id="idiomas" placeholder="Ej: Nivel de idioma requerido o N/A">
         </div>
 
-        <!-- SECCIÓN 3: VERIFICACIÓN EN LA ENTREVISTA / PSICOMETRÍA -->
         <div class="section-title">3. Verificación en la Entrevista / Psicometría</div>
         <div class="form-group">
             <label>Habilidades y Capacidades a Evaluar</label>
@@ -333,24 +330,23 @@
                 <label class="checkbox-item"><input type="checkbox" name="competencias" value="Trabajo en equipo"> Trabajo en equipo</label>
                 <label class="checkbox-item"><input type="checkbox" name="competencias" value="Motivación y orientación al cambio"> Motivación</label>
                 <label class="checkbox-item"><input type="checkbox" name="competencias" value="Trabajo bajo presión"> Trabajo bajo presión</label>
-                <label class="checkbox-item"><input type="checkbox" name="competencias" value="Lreadzgo"> Liderazgo</label>
+                <label class="checkbox-item"><input type="checkbox" name="competencias" value="Liderazgo"> Liderazgo</label>
             </div>
         </div>
         <div class="form-group">
             <label for="actividadesDesempenar">Actividades a Desempeñar</label>
-            <textarea id="actividadesDesempenar" placeholder="• Registrar pólizas contables&#10;• Declaraciones fiscales&#10;• Manejo de SUA..."></textarea>
+            <textarea id="actividadesDesempenar" placeholder="• Actividad 1&#10;• Actividad 2&#10;• Actividad 3..."></textarea>
         </div>
 
-        <!-- SECCIÓN 4: SUELDOS Y PRESTACIONES -->
         <div class="section-title">4. Sueldos y Prestaciones</div>
         <div class="grid-2">
             <div class="form-group">
                 <label for="sueldoBruto">Sueldo Mensual Bruto</label>
-                <input type="text" id="sueldoBruto" placeholder="Ej: $18,000 bruto">
+                <input type="text" id="sueldoBruto" placeholder="Rango bruto">
             </div>
             <div class="form-group">
                 <label for="sueldoNeto">Sueldo Mensual Neto (Base)</label>
-                <input type="text" id="sueldoNeto" placeholder="Ej: $15,000 netos si maneja nóminas">
+                <input type="text" id="sueldoNeto" placeholder="Rango neto">
             </div>
         </div>
 
@@ -394,11 +390,10 @@
             </div>
             <div class="form-group">
                 <label for="periodoPrueba">Período de Prueba</label>
-                <input type="text" id="periodoPrueba" placeholder="Ej: 1 mes o 3 meses">
+                <input type="text" id="periodoPrueba" placeholder="Ej: Plazo de prueba">
             </div>
         </div>
 
-        <!-- SECCIÓN 5: AUTO / TRANSPORTE & EXTRA -->
         <div class="section-title">5. Transporte y Observaciones</div>
         <div class="form-group">
             <label>Requisitos de Auto / Transporte</label>
@@ -414,10 +409,9 @@
 
         <div class="form-group">
             <label for="observacionesExtras">Observaciones Extras</label>
-            <textarea id="observacionesExtras" style="height: 120px;" placeholder="Excelente ambiente, flexibilidad de horarios, oportunidades de crecimiento..."></textarea>
+            <textarea id="observacionesExtras" style="height: 120px;" placeholder="Beneficios extra, comentarios de cultura laboral..."></textarea>
         </div>
 
-        <!-- ACCIÓN GUARDAR -->
         <div class="btn-container">
             <button type="submit" id="btnGuardar" class="btn-submit">Guardar Requisición</button>
         </div>
@@ -425,7 +419,7 @@
     </form>
 </div>
 
-<script {
+<script>
   // 1. ASIGNACIÓN DE LA WEB APP URL GENERADA EN APPS SCRIPT
   const API_URL = "https://script.google.com/macros/s/AKfycbybqu3o-oT1uOHSfCHDAES2L_-FgZil48c8f7ZKjJ7LC3VjFEnww8WPWtsQhWDIAN8_/exec";
 
@@ -503,7 +497,6 @@
           boton.disabled = false;
       });
   });
-}
 </script>
 
 </body>
